@@ -1,4 +1,46 @@
 <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/js/modal.css">
+</head>
+<body>
+
+<h2>Modal Example</h2>
+
+
+<button id="btn">Open Modal</button>
+
+
+<div id="myModal" class="modal">
+
+  
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>
+        <h3>Cssscript.com</h3>
+        Lorem ipsum dolor sit amet consectetur
+         adipisicing elit. Vel iure neque perspiciatis
+          tempora aspernatur vero exercitationem, 
+        numquam voluptates commodi nisi fugit quisquam
+         dolorem non quae molestias illum. Hic, 
+         provident quidem.</p>
+         <button>Close</button>
+  </div>
+
+</div>
+
+<script src="/js/modal.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,33 +48,50 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h3>Modal</h3>
-    </header>
-
-    <section>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Ratione quas deserunt nobis consequatur facilis?
-             Vero rem amet architecto optio quae, ex, ad dolore 
-             voluptates rerum provident eveniet repudiandae quasi fugit?
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Ratione quas deserunt nobis consequatur facilis?
-             Vero rem amet architecto optio quae, ex, ad dolore 
-             voluptates rerum provident eveniet repudiandae quasi fugit?
-        </p>
-    </section>
-
-        <p>Click the button to display an alert box.</p>
-
-        <button onclick="myFunction()">Kattints rám!</button>
-
-
-
-    <script >
-    function myFunction() {
-        alert("Szia! Én egy figyelmeztető ablak vagyok. Amikor feltűnök mögöttem minden elhomályosodik");
-      }
-    </script>
+    <div class="container">
+        <h2>Cssscript.com</h2>
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Modal</button>
+      
+        <div id="id01" class="w3-modal">
+          <div class="w3-modal-content">
+            <div class="w3-container">
+              <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+              <p>Some text. Some text. Some text.</p>
+              <p>Some text. Some text. Some text.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
 </body>
-</html>
+</html> -->
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+  <h2>W3.CSS Modal</h2>
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Modal</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <p>Some text. Some text. Some text.</p>
+        <p>Some text. Some text. Some text.</p>
+      </div>
+    </div>
+  </div>
+</div>
+            
+</body>
+</html> -->
